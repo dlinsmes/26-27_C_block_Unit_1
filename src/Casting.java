@@ -104,6 +104,7 @@ public class Casting {
         int multRounded = (int)(mult + 0.5);
         System.out.println(multRounded);
 
+        //move the decimal back to where it was
         //be careful to use double division, not int div
         double multDivide = multRounded/100.0;
         System.out.println(multDivide);
